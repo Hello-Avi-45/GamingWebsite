@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --navbar-height:60px;
+}
+/* Navigation bar start */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+/* image and logo */
+#logo{
+    margin: 2px 6px;
+}
+#logo img{
+    margin: 2px 6px;
+    height: 60px;
+}
+
+/* list styling */
+#navbar ul{
+    display: flex;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content:"" ;
+    background-color: rgb(31, 28, 28);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 32px;
+    font-family: 'Mate SC', serif;
+}
+#navbar ul li a{
+  display: block;
+  padding: 4px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: rgb(12, 10, 10);
+}
+#navbar ul li a:hover{
+    background: rgb(243, 242, 241);
+    color:rgb(238, 16, 16);
+}
+/* Navigation bar end */
+
+/* Home start */
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    align-items: center;
+    height: 550px;
+    justify-content: center;
+    /* background-color: rgb(221, 143, 179); */
+}
+
+.head1{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-size: 42px;
+    font-family:'Bree Serif', serif;
+}
+.head2{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+    margin-top: 46px;
+    font-family: 'Mate SC', serif;
+}
+
+
+#Container::before{
+    content:"";
+    background:url('https://wallpapertag.com/wallpaper/full/6/3/7/327813-1920x1080-wallpaper-gaming-x-for-pc.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 630px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.2;
+}
+/* Home end */
+/* https://cdn.pixabay.com/photo/2020/06/28/14/09/digital-5349410__340.jpg */
+
+/* Games start */
+#Games {
+    display: flex;
+    margin-top: 15px;
+    padding: 12px;
+}
+.h-primary{
+    font-size: 60px;
+    padding: 12px;
+    color: rgb(236, 20, 20);
+    margin-top: 100px;
+    background-color: rgb(71, 75, 75);
+    text-align: center;
+    font-family:'Bree Serif', serif;
+}
+.h-second{
+    font-size: 40px;
+    padding: 12px;
+    text-align: center;
+    font-family:'Bree Serif', serif;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 80px;
+}
+.box #box-1{
+    height:400px;
+    border: 2px solid red;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 16px;
+}
+.box #box-2{
+    height:400px;
+    border: 2px solid red;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 16px;
+}
+.box #box-3{
+    height: 400px;
+    border: 2px solid red;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 16px;
+}
+.box #box-4{
+    height:400px;
+    border: 2px solid red;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 16px;
+}
+.box p{
+    margin-top: 30px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.box #box-1 img{
+    height: 240px;
+    display: block;
+    margin: auto;
+}
+.box #box-2 img{
+    height: 240px;
+    display: block;
+    margin: auto;
+}
+.box #box-3 img{
+    height: 240px;
+    display: block;
+    margin: auto;
+}
+.box #box-4 img{
+    height: 240px;
+    display: block;
+    margin: auto;
+}
+#container1::before{
+    content:"";
+    background-color: rgb(137, 142, 143);
+    position: absolute;
+    height: 2200px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.2;
+}
+/* Games end */
+
+/* Review Start */
+#Review{ 
+    height: 460px;
+    width: 100%;
+    margin-top: 40px;
+}
+#Review::before{
+    content: "";
+    position: absolute;
+    /* background-color: rgb(137, 142, 143); */
+    /* background:url('https://1.bp.blogspot.com/-86zaRGskm_k/Umu1wCLeXGI/AAAAAAAAAxM/noxNF-fxOq4/s1600/hd+game+wallpapers+1080p__004.jpg')no-repeat center center/cover; */
+    background:url('https://1.bp.blogspot.com/-86zaRGskm_k/Umu1wCLeXGI/AAAAAAAAAxM/noxNF-fxOq4/s1600/hd+game+wallpapers+1080p__004.jpg')no-repeat center center/cover;
+    
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.h-primary1{
+    font-size: 50px;
+    padding: 12px;
+    color: rgb(236, 20, 20);
+    margin-top: 80px;
+    background-color: rgb(71, 75, 75);
+    text-align: center;
+    font-family:'Bree Serif', serif;
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box input,
+#contact-box textarea{
+   width: 100%;
+   padding: 4px;
+   border-radius: 6px;
+   font-size: 16px;
+}
+#contact-box label{
+    font-size: 24px;
+    font-family:'Bree Serif', serif;
+}
+#sub{
+    display: flex;
+    margin:0px 2px ;
+}
+#input{
+    margin: 0px 4px;
+    padding: 2px 10px;
+}
+input{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+/* Review end */
+
+/* Contact Us */
+#Contacts-section{
+    margin-top: 200px;
+    height:150px;
+}
+
+#Contacts-section::before{
+    content: "";
+    position: absolute;
+    background: rgb(137, 142, 143);
+    height: 240px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.h-primary2{
+    font-size: 46px;
+    padding: 8px;
+    color: rgb(236, 20, 20);
+    margin-top: 80px;
+    background-color: rgb(71, 75, 75);
+    text-align: center;
+    font-family:'Bree Serif', serif;
+}
+/* #contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts-item{
+    padding: 25px;
+}
+
+#contacts img{
+    height: 90px;
+    margin-top: 35px;
+} */
+#heading3{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head3{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 6px;
+    color: cornsilk;
+    font-family:'Bree Serif', serif;
+}
+/* Contact Us End */
+
+footer{
+    margin-top: 140px;
+    height: 36px;
+    width: 100%;
+    background: rgb(233, 83, 63);
+    font-size: 24px;
+    color: rgb(245, 242, 241);
+    text-align: center;
+    padding: 15px;
+}
